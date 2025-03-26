@@ -1,0 +1,17 @@
+{
+  "name": "2.tailwind-dark-mode",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildTW": "npx @tailwindcss/cli -i ./styles/source.css -o ./styles/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.0.15",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.15"
+  }
+}
